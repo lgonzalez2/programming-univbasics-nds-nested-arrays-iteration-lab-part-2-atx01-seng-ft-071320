@@ -19,6 +19,7 @@ def find_min_in_nested_arrays(src)
     end 
     
     new_array << small_num
+    small_num = 1000
     
     count += 1 
   end 
