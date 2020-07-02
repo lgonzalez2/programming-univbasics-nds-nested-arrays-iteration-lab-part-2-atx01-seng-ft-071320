@@ -11,8 +11,8 @@ def find_min_in_nested_arrays(src)
     
     while inner_count < src[count].length do 
       
-      if scr[count][inner_count] < small_num
-        small_num = scr[count][inner_count]
+      if src[count][inner_count] < small_num
+        small_num = src[count][inner_count]
       end 
       
       inner_count += 1 
